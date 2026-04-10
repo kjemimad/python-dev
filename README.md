@@ -36,14 +36,14 @@ Every project in this repo follows the same standards :
 
 Each project follows the same internal structure :
 
-project-name/
-├── src/                  # source code
-├── tests/                # all tests
-├── docs/                 # project documentation
-├── .env.example          # environment variables template
-├── Dockerfile            # when relevant
-├── pyproject.toml        # dependencies and project config
-└── README.md             # project documentation
+    project-name/
+    ├── src/                  # source code
+    ├── tests/                # all tests
+    ├── docs/                 # project documentation
+    ├── .env.example          # environment variables template
+    ├── Dockerfile            # when relevant
+    ├── pyproject.toml        # dependencies and project config
+    └── README.md             # project documentation
 
 ## Convention
 
