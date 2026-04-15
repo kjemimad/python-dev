@@ -31,15 +31,15 @@ python --version
 git clone https://github.com/kjemimad/python-dev.git
 cd python-dev/projects/01-cli-tool
 ```
-###Create and Activate virtual environment
+### Create and Activate virtual environment
 
-###Linux / macOS
+### Linux / macOS
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-###Windows 
+### Windows 
 
 ```bash
 python -m venv .venv
