@@ -8,8 +8,8 @@ Each project is built from implementation to deployment, following professional 
 
 | # | Project | Stack | Status |
 |---|---------|-------|--------|
-| 01 | [CLI Tool](./projects/01-cli-tool) | Click, Typer, PyPI | 🔧 In progress |
-| 02 | [Scraper](./projects/02-scraper) | BeautifulSoup, Playwright | ⏳ Planned |
+| 01 | [CLI Tool](./projects/01-cli-tool) | Click, Typer, PyPI |  ✅ Done🔧|
+| 02 | [Scraper](./projects/02-scraper) | BeautifulSoup, Playwright | In progress  |
 | 03 | [REST API](./projects/03-api-rest) | FastAPI, PostgreSQL, Docker | ⏳ Planned |
 | 04 | [Monitoring Bot](./projects/04-monitoring-bot) | psutil, Slack API | ⏳ Planned |
 | 05 | [ML Pipeline](./projects/05-ml-pipeline) | scikit-learn, pandas, MLflow | ⏳ Planned |
@@ -49,11 +49,13 @@ Each project follows the same internal structure :
 
 Commits follow the Conventional Commits specification :
 
-feat: add user authentication
-fix: handle empty response from API
-docs: update installation guide
-test: add unit tests for parser
-refactor: extract validation logic
+    feat: add user authentication
+    fix: handle empty response from API
+    docs: update installation guide
+    test: add unit tests for parser
+    refactor: extract validation logic
+    chore: update dependencies
+    style: fix linting errors
 
 
 ## Author
