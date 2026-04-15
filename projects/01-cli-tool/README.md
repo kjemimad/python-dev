@@ -11,11 +11,44 @@ A CLI tool to automatically organize your downloads folder by file type.
 
 ## Installation
 
+## Prerequisites
+
+Before installing, make sure you have:
+```bash
+git --version
+python --version
+```
+
+- Git → https://git-scm.com/downloads  
+- Python 3.10+ → https://www.python.org/downloads/  
+   During installation, make sure to check **"Add Python to PATH"**
+
+---
+
+### Clone the repository
+
 ```bash
 git clone https://github.com/kjemimad/python-dev.git
 cd python-dev/projects/01-cli-tool
+```
+###Create and Activate virtual environment
+
+###Linux / macOS
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
+###Windows 
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate.bat (cmd)
+.venv\Scripts\Activate.ps1 (powershell)
+```
+### Install dependencies
+
+```bash
 pip install -e ".[dev]"
 ```
 
